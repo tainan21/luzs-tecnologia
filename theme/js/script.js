@@ -1,3 +1,9 @@
+/**
+ * WEBSITE:
+ * TWITTER:
+ * FACEBOOK:
+ * GITHUB:
+ */
 
 (function ($) {
   'use strict';

@@ -1,4 +1,3 @@
-# Small Apps By Themefisher
 
 Small Apps is a clean and modern Free responsive app landing-page template for Mobile App. Built with Bootstrap 4.x frontend Framework. The codebase is well organized, very easy to customize, and SEO optimized.
 

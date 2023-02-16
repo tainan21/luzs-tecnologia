@@ -36,12 +36,7 @@ gulp.task("html:build", function () {
       })
     )
     .pipe(
-      comments(`
-    WEBSITE:
-    TWITTER: 
-    FACEBOOK: 
-    GITHUB: 
-    `)
+      comments(``)
     )
     .pipe(gulp.dest(path.build.dirDev))
     .pipe(
@@ -65,10 +60,6 @@ gulp.task("scss:build", function () {
     .pipe(sourcemaps.write("/"))
     .pipe(
       comments(`
-    WEBSITE:
-    TWITTER: 
-    FACEBOOK: 
-    GITHUB: 
     `)
     )
     .pipe(gulp.dest(path.build.dirDev + "css/"))
@@ -84,11 +75,7 @@ gulp.task("js:build", function () {
   return gulp
     .src(path.src.js)
     .pipe(
-      comments(`
-  WEBSITE:
-  TWITTER: 
-  FACEBOOK: 
-  GITHUB: 
+      comments(` 
   `)
     )
     .pipe(gulp.dest(path.build.dirDev + "js/"))

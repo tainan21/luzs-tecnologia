@@ -1,8 +1,5 @@
 /**
- * WEBSITE:
- * TWITTER:
- * FACEBOOK:
- * GITHUB:
+ *
  */
 
 (function ($) {

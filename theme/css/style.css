@@ -1537,6 +1537,12 @@ p.arrival-review span {
   }
 }
 
+@media (max-width: 480px) {
+  .footer-center {
+    text-align: center;
+  }
+}
+
 .footer-classic {
   background: #fafafa;
   text-align: center;

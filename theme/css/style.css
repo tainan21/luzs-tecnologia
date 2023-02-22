@@ -1527,6 +1527,16 @@ p.arrival-review span {
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .footer-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 .footer-classic {
   background: #fafafa;
   text-align: center;

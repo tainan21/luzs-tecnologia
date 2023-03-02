@@ -8,7 +8,7 @@
     <rect x="545" y="251.32061" width="80.80153" height="30.0916" fill="#ffc107" opacity="0.3"/>
     <rect x="667.03817" y="248.53435" width="80.80153" height="30.0916" fill="#ffc107" opacity="0.3"/>
         <polyline points="823.626 14.856 770.13 65.616 829.198 108.107" fill="none" stroke="#3f3d56" stroke-miterlimit="10"/>
-            <line x1="689.32824" y1="65.61641" x2="611.03435" y2="127.61069" fill="none" stroke="#3f3d56" stroke-miterlimit="10"/>
+        <line x1="689.32824" y1="65.61641" x2="611.03435" y2="127.61069" fill="none" stroke="#3f3d56" stroke-miterlimit="10"/>
         <polyline points="585.401 251.297 611.034 157.702 707.439 248.534" fill="none" stroke="#3f3d56" stroke-miterlimit="10"/>
     <rect x="144.32824" y="82.26718" width="80.80153" height="30.0916" fill="#ffc107" opacity="0.3"/>
     <rect x="278.62595" y="31" width="80.80153" height="30.0916" fill="#ffc107" opacity="0.3"/>

@@ -1,7 +1,14 @@
+
+
 .btn {
   text-transform: uppercase;
 }
 
+.button-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn-download {
   padding: 20px 35px;
   font-size: 14px;

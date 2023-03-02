@@ -290,6 +290,12 @@ button:focus,
   text-transform: uppercase;
 }
 
+.button-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-download {
   padding: 20px 35px;
   font-size: 14px;
@@ -1110,12 +1116,7 @@ b, strong {
   }
 }
 a, a:hover, a:active, a:focus {
-  display: inline-block;
   text-decoration: none;
-  color: #616060;
-  font-size: 16px;
-  padding: 0;
-  font-weight: 500;
 }
 
 /*-------------------------------------

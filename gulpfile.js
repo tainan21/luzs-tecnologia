@@ -15,6 +15,7 @@ var path = {
     others: "source/*.+(php|ico|png)",
     htminc: "source/partials/**/*.htm",
     incdir: "source/partials/",
+    pdf: "source/pdf/**",
     plugins: "source/plugins/**/*.*",
     js: "source/js/*.js",
     scss: "source/scss/**/*.scss",
@@ -63,6 +64,19 @@ gulp.task("scss:build", function () {
     `)
     )
     .pipe(gulp.dest(path.build.dirDev + "css/"))
+    .pipe(
+      bs.reload({
+        stream: true,
+      })
+    );
+});
+
+// Javascript
+// Images
+gulp.task("pdf:build", function () {
+  return gulp
+    .src(path.src.pdf)
+    .pipe(gulp.dest(path.build.dirDev + "pdf/"))
     .pipe(
       bs.reload({
         stream: true,
@@ -126,6 +140,7 @@ gulp.task("watch:build", function () {
   gulp.watch(path.src.htminc, gulp.series("html:build"));
   gulp.watch(path.src.scss, gulp.series("scss:build"));
   gulp.watch(path.src.js, gulp.series("js:build"));
+  gulp.watch(path.src.js, gulp.series("pdf:build"));
   gulp.watch(path.src.images, gulp.series("images:build"));
   gulp.watch(path.src.plugins, gulp.series("plugins:build"));
 });
@@ -139,6 +154,7 @@ gulp.task(
     "js:build",
     "scss:build",
     "images:build",
+    "pdf:build",
     "plugins:build",
     "others:build",
     gulp.parallel("watch:build", function () {
@@ -159,6 +175,7 @@ gulp.task(
     "js:build",
     "scss:build",
     "images:build",
+    "pdf:build",
     "plugins:build"
   )
 );

@@ -170,6 +170,45 @@
       infinite: true,
       arrows: false,
       autoplay: true,
+      autoplaySpeed: 50000,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 0,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }
+      ]
+    });
+    
+    $('.product-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      arrows: false,
+      autoplay: true,
       autoplaySpeed: 1000,
       dots: true,
       responsive: [

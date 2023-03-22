@@ -55,6 +55,21 @@ cite {
   font-size: 16px;
 }
 
+.slimScrollDiv::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: transparent;
+  border-radius: calc(0.25rem - 1px);
+}
+
+slimScrollDiv::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  outline: 1px solid #000;
+}
+
+.slimScrollDiv::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  border-radius: 0 calc(0.25rem - 1px) calc(0.25rem - 1px) 0;
+}
+
 ul.app-badge {
   margin-bottom: 60px;
 }
@@ -116,7 +131,7 @@ body {
 }
 
 .slick-dots {
-  bottom: -105px !important;
+  display: none !important;
 }
 
 .overlay:before {
@@ -1997,6 +2012,45 @@ p.arrival-review span {
 }
 .testimonial .testimonial-slider .owl-dots .owl-dot.active span {
   background: #85fea1;
+}
+
+.banner-fundo {
+  background-image: url("http://localhost:3000/images/banner-tech2.jpg");
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.77);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.banner-fundoB {
+  background-image: url("http://localhost:3000/images/banner-tech1.jpg");
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.77);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.banner-fundoC {
+  background-image: url("http://localhost:3000/images/banner-tech3.jpg");
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.77);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 /* homepage 3 */

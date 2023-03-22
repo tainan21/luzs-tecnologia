@@ -1,8 +1,8 @@
 {
-  "name": "smapp-apps",
+  "name": "Luzs-tecnologia",
   "version": "1.0.0",
-  "description": "smapp-apps free saas template",
-  "author": "Themefisher",
+  "description": "LuzsTecnologia",
+  "author": "LuzsTech",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",

@@ -167,7 +167,7 @@
       infinite: true,
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 4000,
       dots: true,
       responsive: [
         {

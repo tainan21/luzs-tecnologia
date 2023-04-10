@@ -1,11 +1,150 @@
-@@include('header.htm')
+<!DOCTYPE html>
 
-@@include('blocks/navigation.htm', {"contact": "active"})
+<!--
+ //
+-->
 
-@@include('blocks/page-title.htm',{
-	"title"		: "Nosso Contato",
-	"description" : "."
-})
+
+<html lang="pt-br">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>LUZS | Licitações e locações</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="LUZS licitações">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="author" content="Tainan Camargo">
+  <meta name="generator" content="Luzs Licitações v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">	 
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" style="width: 80%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <!-- Dropdown list -->
+          <li class="nav-item @@Home">
+            <a class="nav-link" href="index.html">Home</a> 
+          </li>
+          <li class="nav-item @@about">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Segmentos<span><i class="ti-angle-down"></i></span></a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item ">Educação</a></li>
+            <li><a class="dropdown-item ">Logística</a></li>
+            <li><a class="dropdown-item ">Saúde</a></li>
+            <li><a class="dropdown-item ">Varejo</a></li>
+            <li><a class="dropdown-item ">Indústria</a></li>
+            <li><a class="dropdown-item ">Governo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>    
+  </div>
+</nav>
+
+<!--Slider Main-->
+
+<section>
+  <div class="product-slider" >
+    <div class="banner-fundo" >
+          <div style="backdrop-filter: blur(5px); background: rgba(0,0,0, 0.3);width: 100%; height: 500px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h1 class="text-white font-weight-bold mb-4">Ilumine suas oportunidades !</h1>
+            <p class="text-white mb-5">Vendas, Licitações, Consultoria e Soluções</p>
+            <a href="contato.html" class="btn btn-main-md">Entre em contato Agora!</a>
+          </div>
+    </div>
+    <div class="banner-fundoB" >
+        <div class="row align-items-center">
+          <div style="backdrop-filter: blur(5px); background: rgba(0,0,0, 0.4); width: 100%; height: 500px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h1 class="text-white font-weight-bold mb-4">Ilumine suas oportunidades !</h1>
+            <p class="text-white mb-5">Vendas, Licitações, Consultoria e Soluções</p>
+            <a href="contato.html" class="btn btn-main-md">Entre em contato Agora!</a>
+          </div>
+        </div>
+    </div>
+    <div class="banner-fundoC" >
+        <div class="row align-items-center">
+          <div style="backdrop-filter: blur(5px); background: rgba(0,0,0, 0.4); width: 100%; height: 500px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h1 class="text-white font-weight-bold mb-4">Ilumine suas oportunidades !</h1>
+            <p class="text-white mb-5">Vendas, Licitações, Consultoria e Soluções</p>
+            <a href="contato.html" class="btn btn-main-md">Entre em contato Agora!</a>
+          </div>
+        </div>
+    </div>
+    <!--
+    <div class="image-content item image-printer">
+      <img class="img-fluid" src="images/banner-tech1.jpg" alt="licitação banner">
+    </div>
+    <div class="image-content item image-printer">
+      <img class="img-fluid" src="images/banner-tech2.jpg" alt="licitações banner">
+    </div>ffFF
+    -->
+  </div>
+</section>
+
+
+
+<!--====  End of Hero Section  ====-->
+
+
+<!--================================
+=            Page Title            =
+=================================-->
+
+<section class="section page-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 m-auto">
+				<!-- Page Title -->
+				<h1>Nosso Contato</h1>
+				<!-- Page Description -->
+				<p>.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
 
 <!--=====================================
 =            Address and Map            =
@@ -68,4 +207,111 @@
 
 
 
-@@include('footer.htm')
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12 ">
+          <div class="block">
+              <img src="images/logo-alt2.png" alt="logo" style="width: 80%;">
+            <!-- Social Site Icons -->
+              <a href="#" style="color: white;">contato@luzstecnologia.com.br</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-12 mt-5 mt-lg-0">
+          <div class="block-2">
+            <h6 class="footer-center">Produtos</h6>
+            <ul class="footer-mobile">
+              <li>Monitores</li>
+              <li>Impressoras</li>
+              <li>Computadores</li>
+            </ul>
+          </div> 
+        </div>
+        <div class="col-lg-2 col-md-3 col-12 mt-5 mt-lg-0">
+          <div class="block-2">
+            <h6 class="footer-center">Telefone</h6>
+            <ul class="footer-mobile"> 
+              <li><a href="https://wa.me/5515996211549?text=Ol%C3%A1%20Luzs%2C%20te%20achei%20atrav%C3%A9s%20do%20site!">+55 15 99621-1549
+
+              </a></li>
+              <li><a href="https://wa.me/5515997797025?text=Ol%C3%A1%20Luzs%2C%20te%20achei%20atrav%C3%A9s%20do%20site!">+55 15 99779-7025
+
+              </a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-12 mt-5 mt-lg-0">
+          <div class="block-2">
+            <h6 class="footer-center">Página</h6>
+            <ul class="footer-mobile">
+              <li><a href="index.html">Home
+
+              </a></li>
+              <li><a href="sobre.html">Sobre
+
+              </a></li>
+              <li><a href="contato.html">Contato
+
+              </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-12 mt-5 mt-lg-0">
+          <div class="block-2">
+            <ul class="footer-mobile">
+              <h6 class="footer-center">Segmentos</h6>
+              <li><a class="dropdown-item ">Educação
+
+              </a></li>
+              <li><a class="dropdown-item ">Logística
+
+              </a></li>
+              <li><a class="dropdown-item ">Saúde
+
+              </a></li>
+              <li><a class="dropdown-item ">Varejo
+
+              </a></li>
+              <li><a class="dropdown-item ">Indústria
+
+              </a></li>
+              <li><a class="dropdown-item ">Governo
+
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="http://taicode.com.br/">Taicode
+
+    </a></small class="text-secondary">
+  </div>
+</footer>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5515997797025?text=Ol%C3%A1%2C+venho+atrav%C3%A9s+do+site+Luzstecnologia.com.br" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+
+</a>
+  
+
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+  
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
